@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFuture Summit 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TechFuture Summit 2025</h1>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Evento</h2>
+        <p><strong>Data:</strong> 10 de maio de 2025</p>
+        <p><strong>Local:</strong> Unijorge - Auditório Zélia Gattai</p>
+        <p>O TechFuture Summit reunirá desenvolvedores e designers para discutir as últimas tendências em tecnologia e design.</p>
+    </section>
+
+    <section id="palestrantes">
+        <h2>Palestrantes</h2>
+        <div class="palestrante">
+            <img src="imagens/rakin.jpeg" alt="Foto de Rakin Souza">
+            <h3>Rakin Souza</h3>
+            <p>Especialista em UX/UI com 3 anos de experiência.</p>
+        </div>
+        <div class="palestrante">
+            <img src="imagens/maria.jpeg" alt="Foto de Maria Rita">
+            <h3>Maria Rita</h3>
+            <p>Engenheira de Software, desenvolvedora full-stack.</p>
+        </div>
+        <div class="palestrante">
+            <img src="imagens/arthur.jpeg" alt="Foto de Arthur Almeida ">
+            <h3>Arthur Almeida</h3>
+            <p>Engenheiro de Software, estudioso da computação.</p>
+        </div>
+        <div class="palestrante">
+            <img src="imagens/andressa.jpeg" alt="Foto de Andressa Reis ">
+            <h3>Andressa Reis</h3>
+            <p>Engenheira de Software, desenvolvedora front-end.</p>
+        </div>
+    </section>
+
+    <section id="inscricao">
+        <h2>Inscreva-se</h2>
+        <form action="#" method="POST">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" maxlength="50" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>Escolha seu ingresso:</p>
+            <label>
+                <input type="radio" name="ingresso" value="presencial" required> Presencial
+            </label>
+            <label>
+                <input type="radio" name="ingresso" value="online" required> Online
+            </label>
+
+            <label>
+                <input type="checkbox" id="termos" required> Aceito os termos e condições
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
