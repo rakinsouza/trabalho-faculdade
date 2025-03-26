@@ -1,0 +1,41 @@
+.topo {width: 100% ;
+    height: auto;
+top: 0;
+left: 0;
+
+}
+.perfil {
+    border: white;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1px;
+    left: 60px;
+    z-index: 2
+    
+}
+img.perfil{
+    border: whitesmoke;
+}
+
+
+body {
+    background-color: #282a3a; 
+    color: #ffffff; 
+    background-image: url(); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-size: 1.2rem; 
+}
+section {
+    font-size: x-large;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+}
